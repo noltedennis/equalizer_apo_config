@@ -1,0 +1,6 @@
+# SRC: https://www.youtube.com/watch?v=-Q45J0PESPo
+Channel: all
+Preamp: -2 dB
+Filter 5: ON LS Fc 100 Hz Gain 1 dB
+Filter 9: ON PK Fc 2000 Hz Gain 2 dB Q 1.41
+Filter 11: ON PK Fc 7000 Hz Gain -2 dB Q 2

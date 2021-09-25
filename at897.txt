@@ -1,0 +1,12 @@
+Device: Analogue 1/2 Audient iD14 {ee2c1d45-8b3f-4804-9362-142451a89f6d}
+# Apply filters
+VSTPlugin: Library "C:\Program Files\VSTPlugins\ReaPlugs\reaeq-standalone.dll" ChunkData "IQAAAAIAAAAEAAAAAQAAAAAAAAAAAE5AAAAAAAAA8D+F61G4HoX7PwEDAAAAAQAAAAAAAAAAmtBAAAAAAAAA8D+amZmZmZnxPwEBAAAAAQAAAAAAAAAAAPA/AAAAAA=="
+# Convert recording from mono to stereo
+Copy: L=R
+Channel: L
+Delay: 20 ms
+Copy: TP1=R+-0.5*L
+Copy: L=L+-0.5*R
+Copy: R=TP1
+# Apply amp to get acceptable recording levels in Windows
+Preamp: 8 dB
