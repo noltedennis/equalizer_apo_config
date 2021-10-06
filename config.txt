@@ -1,7 +1,7 @@
 # Include different device configs
 # Hifiman Sundara on Audient id14 mkII Headphone out
-Device: Analogue 5/6 Audient iD14 {83fa534a-a3a0-4df3-af8a-c6ab2fc9c1b8}
+Device: Analogue 5/6 Audient iD14 {6a40808d-0ff7-426d-9ead-885eaab98b0a}
 Include: sundara.txt
 # Audio Technica AT 897 on Mic Input 2 (mono)
-Device: Analogue 1/2 Audient iD14 {ee2c1d45-8b3f-4804-9362-142451a89f6d}
+Device: Analogue 1/2 Audient iD14 {4fe9c2c6-ebc9-4536-83c8-9f44eb3b16e0}
 Include: at897.txt
