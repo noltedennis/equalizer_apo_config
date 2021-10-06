@@ -1,0 +1,6 @@
+# Ignore default config files of Equalizer APO
+demo.txt
+example.txt
+iir_lowpass.txt
+multichannel.txt
+selective_delay.txt
